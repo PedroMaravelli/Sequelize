@@ -1,7 +1,7 @@
 const sequelize = require("sequelize");
 
 module.exports = (sequelize, DataTypes) =>{
-    const professor = sequelize.define('Prefessor',{
+    const professor = sequelize.define('Professor',{
         nome: DataTypes.STRING,
         sobrenome: DataTypes.STRING
     },
